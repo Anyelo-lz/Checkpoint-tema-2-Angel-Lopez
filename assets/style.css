@@ -45,6 +45,7 @@ nav ,a{
 .contenedorPelu{
     border: 1px solid rgb(130, 130, 130, 0.6 );
       width: 281px;
+      margin: 10px;
       
 }
 .textopelu{
@@ -91,6 +92,7 @@ h2{
     justify-content: space-evenly;
  }
  footer{
+    gap: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
