@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+.titulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px 0px 35px;
+}
+.Titulo1{
+    background-color: #f5deb3;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000000;
+     padding: 4px;
+}
+nav ,a{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.img{
+    width: 280px;
+    height: auto;
+    object-fit: cover;
+    height: 200px;
+}
+.peluqueria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 150px 80px 150px;
+    text-align: center;
+}
+.contenedorPelu{
+    border: 1px solid rgb(130, 130, 130, 0.6 );
+      width: 281px;
+      
+}
+.textopelu{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0px 0px;
+}
+h2{
+    margin: 10px;
+}
+ .sub{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+ }
+ .Precios{
+    display: flex;
+    justify-content: space-evenly;
+    
+ }
+ table, tr, th, td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding:5px;
+    text-align: center;
+    
+ }
+ .caption{
+    text-align: center;
+     margin: 150px;
+     font-weight: bolder;
+ }
+ .Titulo02{
+    display: flex;
+ }
+ .contenedor0{
+     
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f5deb3 ;
+    padding:  30px;
+    margin-top: 60px;
+ }
+ .email{
+    color: blue;
+    text-decoration: underline;
+    
+ }
+ .parrafo1{
+    margin-right: 20px;
+ }
+ .parrafo2{
+    margin-right: 70px;
+ }
+
